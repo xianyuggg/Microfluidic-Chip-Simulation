@@ -1,0 +1,60 @@
+QWidget
+{
+background:white;
+font-family: "Microsoft YaHei";
+
+font-size:20px;
+}
+
+
+
+
+
+
+/**********输入框**********/
+QLineEdit {
+        border-radius: 8px;
+        height: 35px;
+        border: 1px solid rgb(111, 156, 207);
+        background: white;
+
+}
+QLineEdit:enabled {
+        color: rgb(84, 84, 84);
+}
+QLineEdit:enabled:hover, QLineEdit:enabled:focus {
+        color: rgb(51, 51, 51);
+}
+QLineEdit:!enabled {
+        color: rgb(80, 80, 80);
+}
+
+/**********标签**********/
+
+/**********按钮**********/
+QPushButton{
+        border-radius: 65px;
+        border: none;
+        width: 75px;
+        height: 25px;
+        font-size:30px;
+
+}
+QPushButton:enabled {
+        background: rgb(120, 170, 220);
+        color: white;
+}
+QPushButton:!enabled {
+        background: rgb(180, 180, 180);
+        color: white;
+}
+QPushButton:enabled:hover{
+        background: rgb(100, 160, 220);
+        padding:20px;
+}
+QPushButton:enabled:pressed{
+        background: rgb(0, 78, 161);
+        padding:20px;
+}
+
+

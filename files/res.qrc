@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>signature.png</file>
+        <file>pic1.png</file>
+        <file>question.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>buttonstyle.qss</file>
+        <file>buttonstyle_advanced.qss</file>
+        <file>style_for_workarea.qss</file>
+        <file>style_for_drawarea.qss</file>
+        <file>buttonstyle_advanced_surface.qss</file>
+        <file>buttonstyle_start_surface.qss</file>
+        <file>style_for_drawarea_surface.qss</file>
+    </qresource>
+</RCC>

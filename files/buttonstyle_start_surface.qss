@@ -1,0 +1,27 @@
+
+
+
+
+/* === QPushButton === */
+QPushButton {
+    border: 3px solid #333333;
+    padding: 20px;
+
+    border-radius: 190px;
+    font-family: "Chiller";
+    font-size:100px;
+}
+
+QPushButton:hover {
+    background-color: #333333;
+    border-color: #444444;
+}
+
+QPushButton:pressed {
+    background-color: #111111;
+    border-color: #333333;
+    color: white;
+
+
+}
+
